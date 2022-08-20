@@ -14,4 +14,7 @@ fun main() {
 
 fun printHello(a: String, b: String){
     println("$a $b! Очень приятно :)")
+    println("А я kotlin.")
+    println()
+    println("Давай дружить! :)")
 }
