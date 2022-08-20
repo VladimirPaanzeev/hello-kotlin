@@ -4,7 +4,7 @@ fun main() {
     val hello = "Привет"
     val kotlin = "kotlin"
 
-    println("Привет друг!")
+    println("Hello friend!")
     println("Как тебя зовут?")
     val name = readLine()
     if (name != null) {
