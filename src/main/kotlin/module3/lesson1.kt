@@ -6,3 +6,5 @@ fun main() {
     val firstVariable = 5
     var secondVariable = 10
 }
+
+fun multiply(a: Int, b: Int) = a * b
