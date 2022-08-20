@@ -1,13 +1,17 @@
 package module1
 
 fun main() {
-    val hello = "Hello"
+    val hello = "Привет"
     val kotlin = "kotlin"
 
-    printHello(hello, kotlin)
+    println("Привет друг!")
+    println("Как тебя зовут?")
+    val name = readLine()
+    if (name != null) {
+        printHello(hello, name)
+    }
 }
 
 fun printHello(a: String, b: String){
-    println("$a $b!")
-
+    println("$a $b! Очень приятно :)")
 }
