@@ -3,8 +3,9 @@ package module3
 fun main() {
     val number: Int = 5
 
-    val firstVariable = 5
+    val firstVariable = 6
     var secondVariable = 10
+    secondVariable += firstVariable
     println(Sum(firstVariable, secondVariable))
 }
 
