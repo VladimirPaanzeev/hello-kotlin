@@ -5,6 +5,7 @@ fun main() {
     val kotlin = "kotlin"
 
     println("Hello friend!")
+    println("Привет друг!")
     println("Как тебя зовут?")
     val name = readLine()
     if (name != null) {
