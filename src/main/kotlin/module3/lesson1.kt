@@ -6,7 +6,7 @@ fun main() {
     val firstVariable = 6
     var secondVariable = 10
     secondVariable += firstVariable
-    println(Sum(firstVariable, secondVariable))
+    println("Сумма чисел $firstVariable и $secondVariable равна: ${Sum(firstVariable, secondVariable)}")
 }
 
 fun Sum(number1: Int, number2: Int) = number1 + number2
