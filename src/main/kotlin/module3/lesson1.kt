@@ -2,7 +2,7 @@ package module3
 
 fun main() {
     val firstVariable = 6
-    var secondVariable = 10
+    val secondVariable = 10
     secondVariable += firstVariable
     println("Сумма чисел $firstVariable и $secondVariable равна: ${sum(firstVariable, secondVariable)}")
 }
