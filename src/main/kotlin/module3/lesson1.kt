@@ -1,8 +1,11 @@
 package module3
 
 fun main() {
-    val number: Int = 5
+    print("Введите степень числа: ")
+    val number: Int? = readLine()?.toIntOrNull()?: return
 
-    val firstVariable = 5
-    var secondVariable = 10
+    print("Введите первое число: ")
+    val firstVariable: Int? = readLine()?.toIntOrNull()?: return
+    print("Введите второе число: ")
+    var secondVariableI: Int? = readLine()?.toIntOrNull()?: return
 }
