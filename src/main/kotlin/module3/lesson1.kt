@@ -11,7 +11,9 @@ fun main() {
 
     exponentiation(number?:return, firstVariable?:return)
     exponentiation(number?:return, secondVariable?:return)
+    println(multiply(firstVariable, secondVariable))
 }
+
 fun exponentiation (exponent: Int, x: Int): Long {
     var result = 1
     for (i in 1.. exponent ) {
@@ -20,3 +22,5 @@ fun exponentiation (exponent: Int, x: Int): Long {
     println("Число $x в степени $exponent равно: $result")
     return result.toLong()
 }
+
+fun multiply(a: Int, b: Int) = a * b
