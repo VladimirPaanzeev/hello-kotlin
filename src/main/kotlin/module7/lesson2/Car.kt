@@ -13,7 +13,7 @@ class Car(val brand: String, val model: String, val color: String = "White") {
     }
 
     init {
-        println("Автомобиль создан")
+        println(" Автомобиль создан")
     }
 
     var currentSpeed = 0.0
